@@ -1,0 +1,138 @@
+body
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 1;
+	padding: 1;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 25px
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	font-size: 20px;
+	list-style: none;
+}
+
+ol li:first-child {
+	color: red;
+}
+
+blockquote, q {
+	quotes: inherit;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+	font-style: oblique;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&d..');
+
+body {
+  /* background-image: url(../img/dc-online-media-mockup.jpg); */
+	width: 800px;
+	background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20;
+
+	margin: 0 auto;
+
+	margin-left: 210;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+q {
+	position: relative;
+}
+q:before {
+	position: absolute;
+	left: -10px;
+
+	width: 2px;
+	height: 100%;
+	background: black;
+	content: "";
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 65px;
+	margin-bottom: 7;
+}
+
+p{
+	font-size: 20px;
+	margin-top: 30;
+}
+h1 + p {
+	color: grey;
+}
+
+h2 {
+font-size: 25px;
+font-weight: normal;
+margin-top: 30;
+margin-bottom: 7;
+}
+h3 {
+font-size: 20px;
+font-weight: bold;
+margin-top: 30;
+margin-bottom: 7;
+}
+h4 {
+font-size: 15px;
+font-weight: bold;
+margin-top: 30;
+margin-bottom: 7;
+}
+li {
+list-style: disc;
+margin-left: 30px;
+margin-bottom: 30px;
+font-size: 20px;
+}
+.line {
+border-left: 4px solid; /* Параметры линии */
+margin-left: -20px; /* Отступ слева */
+padding-left: 20px; /* Расстояние от линии до текста */
+}
