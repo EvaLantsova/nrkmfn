@@ -17,6 +17,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	background: url(na)
 	margin: 1;
 	padding: 1;
 	border: 0;
@@ -30,6 +31,102 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+nav {
+  height: 100vh;
+	line-height: 10px;
+	background-color: #FFF;
+	position: fixed;
+	overflow: scroll;
+	top: 0;
+	left: 0;
+	margin-left: 5px;
+	z-index: 10;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	transition: all 300ms ease;
+  opacity: 0.5;
+}
+
+
+nav:hover{
+	opacity: 1;
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+nav a {
+		font-size: 15px;
+		text-decoration: none;
+}
+
+nav ul > li:first-child {
+	font-weight: bold;
+	color: 	#000000;
+	font-size: 10px;
+}
+a:hover {
+color: green;
+}
+
+.ideology {
+	color: 	#808080;
+}
+.place {
+	font-weight: bold;
+	color: 	#000000;
+}
+.architechture {
+	font-weight: bold;
+	color: 	#000000;
+}
+.SZHK {
+ color: 	#808080;
+}
+.POK {
+  color: 	#808080;
+}
+.AZHD {
+  color: 	#808080;
+}
+.PIP {
+  color: 	#808080;
+}
+.VS {
+  color: 	#808080;
+}
+.TY {
+color: 	#808080;
+}
+.AKK {
+color: 	#808080;
+}
+.FSD {
+color: 	#808080;
+}
+.KIM {
+	font-weight: bold;
+	color: 	#000000;
+}
+.ZHK {
+color: 	#808080;
+}
+.BP {
+color: 	#808080;
+}
+.DEM {
+	color: #808080;
+}
+.INT {
+	font-weight: bold;
+	color: 	#000000;
+}
+.OSV {
+	color: #808080;
+}
+.SDVO {
+	color: #808080;
+}
+.COLOUR {
+	color: #808080;
+}
 h2 {
 	font-weight: bold;
 	font-size: 25px
